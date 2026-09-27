@@ -1,0 +1,34 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python environment files
+.env
+.env.*
+
+# Tableau temporary/local files
+*.hyper
+*.twb~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Raw project data
+data/raw/
+
+# Intermediate processed data
+data/processed/churn_clean.csv
+data/processed/customers_clean.csv
+data/processed/usage_clean.csv
